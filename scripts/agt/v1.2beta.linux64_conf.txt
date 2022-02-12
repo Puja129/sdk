@@ -9,8 +9,6 @@ wget -q --show-progress -O ~/.ec/agt/conf/x:server.yml https://raw.githubusercon
 
 # tbc add more conf files
 
-
-
 # default if AGENT_REV is present in env
 AGENT_REV_LOCAL=$AGENT_REV
 if [[ $AGENT_REV_LOCAL != "1.2-b."* ]]; then
