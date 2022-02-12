@@ -11,7 +11,7 @@
 #  author: apolo.yasuda@ge.com
 #
 
-source <(wget -O - https://raw.githubusercontent.com/EC-Release/sdk/disty/scripts/agt/v1.2beta.linux64.txt) -ver
+source <(wget -O - https://raw.githubusercontent.com/EC-Release/sdk/disty/scripts/libs/common.sh) -ver
 
 function setDb() {
 
