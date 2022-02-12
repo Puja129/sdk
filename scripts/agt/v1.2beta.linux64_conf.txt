@@ -1,7 +1,4 @@
-{
-    agent -ver
-    return;
-}
+[[ -e ~/.ec/agent ]] && rm ~/.ec/agent || printf "\n no agent binary found!\n\n"
 
 mkdir -p ~/.ec/agt/conf ~/.ec/agt/bin
 wget -q --show-progress -O ~/.ec/agt/conf/agent_v1.2beta.sh https://raw.githubusercontent.com/EC-Release/sdk/disty/scripts/agt/conf/agent_v1.2beta.sh
@@ -12,7 +9,7 @@ wget -q --show-progress -O ~/.ec/agt/conf/x:server.yml https://raw.githubusercon
 
 # tbc add more conf files
 
-[[ -e ~/.ec/agent ]] && rm ~/.ec/agent || printf "\n no agent binary found!\n\n"
+
 
 # default if AGENT_REV is present in env
 AGENT_REV_LOCAL=$AGENT_REV
