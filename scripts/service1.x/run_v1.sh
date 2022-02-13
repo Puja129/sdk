@@ -70,7 +70,7 @@ export EC_PRVT_KEY="$(cat ./temp/service.key)"
     agent -ver
 } || {
     printf "\n\nmissing agent. begin agent installation\n"
-    source <(wget -O - https://raw.githubusercontent.com/EC-Release/sdk/disty/scripts/agt/v1.2beta.linux64_conf.txt)
+    source <(wget -O - https://raw.githubusercontent.com/EC-Release/sdk/disty/scripts/agt/v1.2beta.linux64.txt) -ver
 }
 
 printf "\n\nbegin test keypair\n"
