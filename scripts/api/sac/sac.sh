@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source <(wget -O - https://raw.githubusercontent.com/EC-Release/sdk/disty/scripts/api/sac1.x/sac.sh)
+source <(wget -O - https://raw.githubusercontent.com/EC-Release/sdk/disty/scripts/api/sac1.x/sac_conf.sh)
 
 if [[ -z "${EC_PPS}" ]]; then
     export EC_PPS=$CA_PPRS    
